@@ -1,0 +1,340 @@
+body {	
+	background-image:url(./images/bg-home.png) !important;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/*NavBar Logo*/
+.brand-logo {
+	width: 80px;
+	margin-left: 20px;
+}
+/*NavBar Transparent*/
+.my-nav {
+	background:transparent !important;
+}
+
+.nav-pills .nav-link {
+	border-radius: 0;
+	margin-right: 10px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: transparent;
+    border-bottom: 2px solid #007bff;
+}
+
+/*NavBar Menu Burger*/
+.navbar-toggler-icon {
+    color: #fff !important;
+    background: #fff;
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+
+
+/*Home Section*/
+
+#pills-home {
+	color: #fff;
+}
+
+p.myname {
+	font-family: 'BenchNine', sans-serif;
+	font-size: 55px;
+}
+
+p.title {
+	font-family: 'Farro', sans-serif;
+	font-size: 20px;
+	margin-top: -35px;
+}
+
+p.short-des {
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+/*Home Buttons*/
+
+.btn {
+	width: 250px;
+	border-radius: 25px !important;
+	padding: 10px 10px !important;
+	float: left;
+	height: 40px;
+	margin-top: 0;
+	margin-right: 15px;
+	line-height: 1;
+	margin-left: 20px;
+}
+
+/*About Section*/
+
+#pills-profile {
+	color: #fff;
+}
+
+#pills-profile .title {
+	font-size: 30px;
+}
+
+.sticky-top {
+    position: absolute;
+    width: 100%;
+}
+
+.tab-content {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    align-items: flex-end;
+}
+
+.tab-content .tab-pane {
+	width: 100%;
+	padding-bottom: 100px;
+}
+
+#pills-skill {
+	padding-bottom: 0;
+}
+
+/*Skills & Works Section*/
+
+.carousel-inner {
+	height: 100vh;
+}
+
+.carousel-caption {
+	bottom: 50%;
+	text-align: center;
+}
+
+
+/*Skills & Works Section Button*/
+ .carousel-caption .btn {
+ 	float: none;
+ }
+
+
+/*Contact Section*/
+h2.section-title {
+	font-family: 'Farro', sans-serif;
+	font-size: 30px;
+}
+.py-4 {
+	align-items: center;
+}
+
+.socmed-icons {
+	text-align: center;
+	color: #fff;
+}
+
+#pills-contact {
+	color: #fff;
+} 
+p.section-sub-text {
+	margin-right: 100px;
+    padding-bottom: 6px;
+}
+
+
+
+
+/*Footer*/
+.copyright {
+	text-align: center;
+	align-items: center !important;
+	padding-top: 18px;
+	font-size: 9px;
+
+}
+
+footer {
+	background: #222;
+}
+
+.footer {
+	padding-bottom: -50px !important;
+}
+.list-group-horizontal>.list-group-item {
+    background: transparent;
+    border-color: transparent;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 768px) {
+	.tab-content {
+	    align-items: center;
+	}
+
+	.navbar-collapse { 
+		font-size: 10px;
+	}
+
+	.brand-logo {
+	    width: 45px;
+	    margin-left: 3px;
+	}
+
+	.navbar-toggler-icon {
+		padding: 20px;
+	}
+
+	.tab-pane .nav-item, .tab-pane .nav-item .nav-link,
+	.tab-pane .nav  {
+		width: 100%;
+	}
+
+	.tab-pane .nav-item .btn {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.tab-pane .nav-item {
+		padding: 10px 15px;
+	}
+
+	p.myname {
+		text-align: center;
+	    font-size: 42px;
+	    line-height: normal;
+	    margin-bottom: 0;
+	    height: auto;
+	    display: block;
+	}
+
+	p.title {
+	    font-size: 17px;
+	    margin-top: 0;
+	    line-height: normal;
+	    text-align: center;
+	}
+
+	p.short-des, .short-des2 {
+	    margin-top: 30px;
+	    margin-bottom: 20px;
+	    text-align: center;
+        font-size: 14px;
+	}
+
+	.carousel img.w-100 {
+	    width: auto !important;
+	    height: 100% !important;
+	    max-width: unset;
+	}
+
+	.carousel .carousel-caption {
+	    bottom: 45%;
+	    text-align: center;
+	    display: block !important;
+	}
+
+	.carousel .carousel-caption .btn {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	#pills-contact {
+	    padding-top: 150px;
+	}
+
+	#pills-contact .section-title {
+		text-align: center;
+	}
+
+	#pills-contact p.section-sub-text {
+	    margin-right: 0;
+	    text-align: center;
+	}
+
+	#pills-contact .nav {
+		margin-bottom: 30px;
+	}
+
+	.footer .list-group {
+		justify-content: center;
+	}
+
+	.footer .list-group-item {
+		padding: 5px 10px;
+	}
+
+	.copyright {
+	    padding-top: 5px;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	
+	.tab-content {
+	    align-items: flex-end;
+	}
+
+	.carousel .carousel-caption {
+	    bottom: 55%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsive on Home Page*/
+@/*media only screen and (max-width: 360px) {
+	#pills-profile .title {
+    font-size: 21px;
+	}
+    p.myname {
+    font-size: 50px;
+	}
+	.btn {
+        margin-bottom: 15px;
+        width: 170px;
+    }
+	.nav-item .nav-link {
+		font-size: 12px;
+		margin-right: -5px;
+	}
+	.brand-logo {
+	    width: 50px;
+	    margin-left: 3px;
+	}
+	.navbar-toggler {
+    padding: 0.25rem -4.25rem;
+    font-size: 0.25rem;
+    }
+    .navbar-toggler-icon {
+        padding: 23px;    
+    }    
+}
+
+@media only screen and (max-width: 768px;) {
+	#pills-profile .title {
+    font-size: 21px;
+	}
+    p.myname {
+    font-size: 75px !important;
+	}
+}*/
